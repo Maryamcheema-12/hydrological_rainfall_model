@@ -1,0 +1,15 @@
+city,country,latitude,longitude,year,month,pm25_ugm3,no2_ugm3,data_quality,measurement_method,data_source
+New York,USA,40.7128,-74.006,1999,1,18.11,35.98,Moderate,Reference/Equivalent Method,EPA_AQS
+New York,USA,40.7128,-74.006,1999,2,27.79,17.71,Good,Reference/Equivalent Method,EPA_AQS
+New York,USA,40.7128,-74.006,1999,3,12.05,40.99,Moderate,Reference/Equivalent Method,EPA_AQS
+New York,USA,40.7128,-74.006,1999,4,35.25,17.18,Poor,Reference/Equivalent Method,EPA_AQS
+New York,USA,40.7128,-74.006,1999,5,38.39,25.07,Good,Reference/Equivalent Method,EPA_AQS
+New York,USA,40.7128,-74.006,1999,6,14.89,28.95,Good,Reference/Equivalent Method,EPA_AQS
+New York,USA,40.7128,-74.006,1999,7,19.66,27.81,Good,Reference/Equivalent Method,EPA_AQS
+New York,USA,40.7128,-74.006,1999,8,22.45,30.12,Moderate,Reference/Equivalent Method,EPA_AQS
+New York,USA,40.7128,-74.006,1999,9,25.10,32.44,Moderate,Reference/Equivalent Method,EPA_AQS
+New York,USA,40.7128,-74.006,1999,10,20.05,28.55,Good,Reference/Equivalent Method,EPA_AQS
+New York,USA,40.7128,-74.006,1999,11,18.33,34.20,Good,Reference/Equivalent Method,EPA_AQS
+New York,USA,40.7128,-74.006,1999,12,15.90,36.50,Good,Reference/Equivalent Method,EPA_AQS
+New York,USA,40.7128,-74.006,2000,1,17.50,34.80,Good,Reference/Equivalent Method,EPA_AQS
+New York,USA,40.7128,-74.006,2000,2,28.10,18.90,Moderate,Reference/Equivalent Method,EPA_AQS

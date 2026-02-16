@@ -1,0 +1,40 @@
+
+    <html>
+    <head>
+        <title>Hydrological Forecast: London</title>
+        <style>
+            body { display: flex; font-family: Arial, sans-serif; margin: 0; }
+            #sidebar { width: 300px; background: #222; color: #fff; padding: 20px; }
+            #map { flex: 1; height: 100vh; }
+            .metric { margin-bottom: 20px; background: #333; padding: 10px; border-radius: 5px; }
+            .val { font-size: 24px; font-weight: bold; color: #00d2ff; }
+            .risk { font-size: 20px; font-weight: bold; color: #ff4444; }
+        </style>
+    </head>
+    <body>
+        <div id="sidebar">
+            <h2>Flood Prediction</h2>
+            <p>Target: <strong>LONDON</strong></p>
+            <div class="metric">
+                <label>Avg Urban Density (PM2.5)</label>
+                <div class="val">22.4</div>
+            </div>
+            <div class="metric">
+                <label>Predicted Runoff Flow</label>
+                <div class="val">22.10 m3/s</div>
+            </div>
+            <div class="metric">
+                <label>Flood Risk</label>
+                <div class="risk">MODERATE</div>
+                <div style="width: 100%; background: #555; height: 10px; margin-top:5px;">
+                    <div style="width: 55.25421910553293%; background: #ff4444; height: 100%;"></div>
+                </div>
+            </div>
+            <p><em>Model: Matrix Inversion Regression</em></p>
+        </div>
+        <iframe id="map" frameborder="0" style="border:0"
+            src="https://maps.google.com/maps?q=London&t=&z=12&ie=UTF8&iwloc=&output=embed">
+        </iframe>
+    </body>
+    </html>
+    
